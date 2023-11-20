@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 :root {
 	--wp-admin-theme-color: #007cba;
@@ -18,6 +19,11 @@
 .hide {
 	display: none
 }
+@font-face {
+	font-family: 'Amarante'; /* 定義字體名稱，你可以自訂 */
+	src: url('font/Amarante-Regular.ttf') format('ttf'); /* 字體檔案的路徑和格式 */
+	/* 你也可以添加其他字體格式，如ttf、eot等，以提供跨瀏覽器的支援 */
+  }
 @keyframes bounce {
 	0%, 20%, 53%, 80%, to {
 		-webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
@@ -210,6 +216,9 @@
 	88.8% {
 		transform: skewX(-.1953125deg) skewY(-.1953125deg)
 	}
+}
+.wp-site-blocks{
+	background: linear-gradient(275deg, #1F012D 13.75%, #19222B 85.76%);
 }
 .jello {
 	-webkit-animation-name: jello;
@@ -7119,7 +7128,8 @@ body.fancybox-active.compensate-for-scrollbar {
 	color: transparent
 }
 .wp-block-kubio-section.wp-block, .wp-block-kubio-section [data-kubio]:not([class*=h-col-]) {
-	max-width: unset!important
+	max-width: unset!important;
+	color: #ffffff66;
 }
 .wp-block-kubio-section>div {
 	z-index: 1;

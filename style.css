@@ -3,6 +3,11 @@
     position: relative;
     z-index: 10003 !important;
 }
+@font-face {
+	font-family: 'Amarante'; /* 定義字體名稱，你可以自訂 */
+	src: url('font/Amarante-Regular.ttf') format('truetype'); /* 字體檔案的路徑和格式 */
+	/* 你也可以添加其他字體格式，如ttf、eot等，以提供跨瀏覽器的支援 */
+}
 body{
     margin: 0 !important;
 }
@@ -771,6 +776,8 @@ body .is-layout-flex>* {
 }
 #kubio .wp-block.wp-block-kubio-heading__text.style-Ul1kxh9zp-text {
 	color: rgba(var(--kubio-color-6-variant-5), 1);
+	color: white;
+	font-family: 'Amarante', sans-serif; /* 使用字體 */
 }
 #kubio .wp-block.wp-block-kubio-heading__text.style-Ul1kxh9zp-text .text-wrapper-fancy svg path {
 	stroke: #000000;
@@ -779,6 +786,7 @@ body .is-layout-flex>* {
 	stroke-width: 8px;
 }
 #kubio p.wp-block.wp-block-kubio-text__text.style-RQrBbZDHL-text {
+	color: #ffffff66;
 	font-size: 16px;
 }
 #kubio .wp-block.wp-block-kubio-heading__text.style-ANfG8AE3kW-text .text-wrapper-fancy svg path {
@@ -821,7 +829,7 @@ body .is-layout-flex>* {
 }
 #kubio p.wp-block.wp-block-kubio-text__text.style-TFD_1WUaThs-text {
 	font-size: 34px;
-	color: #115e08;
+	color: rgb(0, 254, 53);
 }
 #kubio .style-vP0mYzy99sE-outer {
 	padding-top: 35px;
